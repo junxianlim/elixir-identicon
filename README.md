@@ -1,19 +1,15 @@
 # Identicon
 
-**TODO: Add description**
+- This is a simple program for creating Identicons while learning Elixir
 
-## Installation
+### Setup
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+- Clone repo and cd into directory.
+- `mix deps` to install Dependencies
+- `mix test` to run tests
+- `iex -S mix` to go into the REPL with Cards module loaded.
 
-```elixir
-def deps do
-  [{:identicon, "~> 0.1.0"}]
-end
-```
+### Documentation
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
-
+- Run `mix docs` to render documentation.
+- Open `doc.index.html` to open documentation.
